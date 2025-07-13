@@ -54,7 +54,7 @@ export default function RoadmapItems() {
         />
         <button
           onClick={fetchItems}
-          className=" sm:w-auto bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition cursor-pointer"
+          className="sm:w-auto bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition cursor-pointer"
         >
           Search
         </button>

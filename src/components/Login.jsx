@@ -62,7 +62,7 @@ export default function Login() {
   };
 
   return (
-    <div className="max-w-md mx-auto my-10 p-6 bg-white rounded shadow-md">
+    <div className="max-w-md mx-auto my-10 p-6 bg-white rounded shadow-md h-[60vh]">
       <h1 className="text-center text-3xl mb-6 text-violet-700 font-medium">
         Login
       </h1>
