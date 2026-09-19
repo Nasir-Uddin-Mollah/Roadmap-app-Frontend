@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -69,10 +69,10 @@ export default function Navbar(props) {
         console.error("Error fetching user data", error);
       }
     };
-    {
-      token && fetchUser();
+    if (token && user_id) {
+      fetchUser();
     }
-  }, [token]);
+  }, [token, user_id]);
 
   return (
     <nav className="bg-gray-800">
